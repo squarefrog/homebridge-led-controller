@@ -1,0 +1,21 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "CC:22:3D:E3:CE:30",
+        "port": 51826,
+        "pin": "031-45-154"
+    },
+
+    "description": "This is an example configuration file for an ESP LED accessory. You can use this as a template for creating your own configuration file containing accessories you actually own.",
+
+    "platforms": [
+    ],
+
+    "accessories": [
+        {
+            "accessory": "led-controller",
+            "name": "TV Lights",
+            "host": "esplights.local"
+        }
+    ]
+}

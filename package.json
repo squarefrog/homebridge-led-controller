@@ -1,0 +1,24 @@
+{
+  "name": "homebridge-led-controller",
+  "version": "1.0.0",
+  "description": "An accessory to control an LED strip using an ESP8266 controller.",
+  "license": "MIT",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "author": {
+    "name": "Paul Williamson"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/squarefrog/homebridge-led-controller.git"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.65.0"
+  }
+}
