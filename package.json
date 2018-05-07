@@ -1,6 +1,6 @@
 {
   "name": "homebridge-led-controller",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An accessory to control an LED strip using an ESP8266 controller.",
   "license": "MIT",
   "keywords": [
