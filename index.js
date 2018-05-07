@@ -106,8 +106,8 @@ LEDAccessory.prototype = {
     var url = this.baseURL + path;
     request.get({ url: url }, function (error, response, body) {
       if (error) {
-        that.log('STATUS: ' + response.statusCode);
-        that.log(error.message);
+        that.log('STATUS:', response && response.statusCode);
+        that.log('ERROR:', error.message);
         return callback(error);
       }
       var json = JSON.parse(body);
@@ -130,8 +130,8 @@ LEDAccessory.prototype = {
     };
     request.post(options, function (error, response) {
       if (error) {
-        that.log('STATUS: ' + response.statusCode);
-        that.log(error.message);
+        that.log('STATUS:', response && response.statusCode);
+        that.log('ERROR:', error.message);
         return callback(error);
       }
       return callback();
