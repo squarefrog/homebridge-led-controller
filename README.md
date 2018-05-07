@@ -21,7 +21,7 @@ Bare minimum configuration:
   {
     "accessory": "led-controller",
     "name": "TV Lights",
-    "hostname": "10.0.0.4"
+    "host": "10.0.0.4"
   }
 ]
 ```
@@ -33,7 +33,7 @@ Optional configuration:
   {
     "accessory": "led-controller",
     "name": "TV Lights",
-    "hostname": "10.0.0.4",
+    "host": "10.0.0.4",
     "manufacturer": "Bob Ross",
     "model": "Happy LEDs",
     "serial": "123-456-789"
